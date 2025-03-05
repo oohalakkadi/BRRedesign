@@ -132,7 +132,7 @@ Material:
     - _Float0: 0
     - _Float2: 0
     - _Glossiness: 0.85
-    - _Intensity: 0.64
+    - _Intensity: 0.36
     - _IntensityMask: 0
     - _InvertABaseColor: 0
     - _InvertMask: 0
