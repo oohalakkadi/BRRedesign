@@ -6587,7 +6587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &450047279
 Transform:
   m_ObjectHideFlags: 0
@@ -20476,12 +20476,17 @@ MonoBehaviour:
   doorHinge: {fileID: 1800726109}
   door: {fileID: 450047278}
   vacant: {fileID: 312410171}
+  hoverCollider: {fileID: 0}
   doorClosedEuler: {x: 0, y: -90, z: 0}
   doorOpenEuler: {x: 0, y: 180, z: 0}
   lockUnlockedEuler: {x: 90, y: 0, z: 0}
   lockLockedEuler: {x: 180, y: 0, z: 0}
   doorAnimationDuration: 1
   lockAnimationDuration: 0.5
+  touchFree: 0
+  cooldownAfterClosing: 2
+  gazeTimeRequired: 1
+  doorAutoCloseTime: 5
 --- !u!4 &1445077392
 Transform:
   m_ObjectHideFlags: 0
